@@ -1,8 +1,10 @@
 
 
 #
-LibreTranslate plugin to text gen web ui using local install of LibreTranslate
+LibreTranslate extension for text-generation-webui using local install of LibreTranslate
 
+
+https://github.com/oobabooga/text-generation-webui
 
 
 #
