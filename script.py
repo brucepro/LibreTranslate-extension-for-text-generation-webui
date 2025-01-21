@@ -33,8 +33,9 @@ def output_modifier(string):
     """
     if not params['activate']:
         return string
-
-    return lt.translate(string, "en", params['language string'])
+    clean_string = html.unescape(string)
+        
+    return lt.translate(clean_string, "en", params['language string'])
 
 
 def bot_prefix_modifier(string):
